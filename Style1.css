@@ -51,6 +51,16 @@ a:visited{
     margin:5px;
     text-decoration: none;
 }
+a::before{
+    list-style-type: none;
+    cursor:pointer;
+    background-color:  #dce0df;
+    border-radius: 4px;
+    color:#050505;
+    padding: 7px;
+    margin:5px;
+    text-decoration: none;
+}
 
 .mid_content{
     position: relative;

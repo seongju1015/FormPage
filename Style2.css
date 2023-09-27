@@ -52,6 +52,16 @@ a:visited{
     margin:5px;
     text-decoration: none;
 }
+a:before{
+    list-style-type: none;
+    cursor:pointer;
+    background-color:  #dce0df;
+    border-radius: 4px;
+    color:#ffffff;
+    padding: 7px;
+    margin:5px;
+    text-decoration: none;
+}
 
 .mid_content{
     position: relative;
@@ -77,6 +87,13 @@ a:visited{
 
 #mid_header3{
     color: #50b653;
+}
+
+#mid_st1{
+    color:#000000
+}
+#mid_st2{
+    color:#000000
 }
 
 .bottom_content{

@@ -8,7 +8,7 @@
     <p>{ 전산전자 공학부 인적사항 기입 페이지 }</p>
     <form action="form_ok.php">
 
-        <div className="gender_page">
+        <div class="gender_page">
             <label for="gender">[ 성별 ]</label><br>
             <label for="gender">male </label>
             <input type="radio" name="user_gender" value="male">
@@ -17,7 +17,7 @@
             <br>
         </div>
 
-        <div className="major">
+        <div class="major">
             <label>[ 전공 ]</label><br>
             <label>전산전자 공학부(필수 체크)</label>
             <input type="checkbox" name="user_major" value="both" checked><br>
@@ -28,16 +28,18 @@
             <br>
         </div>
 
-        <div className="name_page">
-            <label>[ 이름 ] </label><br>
-            <label>FirstName : </label>
-            <input type="text" name="fname" value="성"> 
-            <label>Name :  </label>
-            <input type="text" name="name" value="이름"> <br>
-            <br>
+        <div class="name_page">
+            <fieldset>
+                <legend>[ 이름 ]</legend>
+                    <label>FirstName : </label>
+                    <input type="text" name="fname" value="성"> 
+                    <label>Name :  </label>
+                    <input type="text" name="name" value="이름"> <br>
+                    <br>
+            </fieldset>
         </div>
 
-        <div className="region">
+        <div class="region">
             <label>[ 현재 거주 지역 ]</label><br>
             <select name="city">
                 <optgroup label="포항시">
@@ -56,14 +58,15 @@
         </div><br>
 
         <div className="specialThing">
-            <label>[ 특이사항 기입 ]</label><br>
+            <label >[ 특이사항 기입 ]</label><br>
             <textarea name="special" rows=20 cols=40></textarea><br>
 
         </div><br>
 
         <div className ="final">
             <input type = 'submit' value = '저장'>
-            <input type = 'reset' value = '취소'>
+            <input type = 'reset'  style="color: red" value = '취소'>
+            
         </div>
 
     </form>
