@@ -42,6 +42,17 @@
     cursor: pointer;
 }
 
+a:visited{
+    list-style-type: none;
+    cursor:pointer;
+    background-color:  #dce0df;
+    border-radius: 4px;
+    color:#ffffff;
+    padding: 7px;
+    margin:5px;
+    text-decoration: none;
+}
+
 .mid_content{
     position: relative;
     top: 25px;;
